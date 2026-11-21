@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+header {
+    text-align: center;
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 1.2rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.2rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #bdc3c7;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #34495e;
+    margin-top: 1.2rem;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.project-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.project-item:last-child {
+    margin-bottom: 0;
+}
+
+.project-img {
+    width: 200px;
+    height: 112px;
+    border-radius: 6px;
+    object-fit: cover;
+    border: 2px solid #3498db;
+    flex-shrink: 0;
+}
+
+.project-text {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1.25rem;
+    }
+
+    .about-container,
+    .project-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-bottom: 0.5rem;
+    }
+
+    .project-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        margin-bottom: 0.5rem;
+    }
+}

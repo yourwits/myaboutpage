@@ -1,0 +1,30 @@
+1. button type=submit
+2. required
+3. text of all paragraphs maroon
+4. padding
+5. clic = event that happens when u press a link
+6. contact.html contact us
+7. Web Content Access
+8. Arranging Elements
+9. H1
+10. !Doct
+11. Content -> margin
+12. button.unclick
+13. Sitemap
+14. 451
+15. .button
+16. Choosing color and size
+17. //
+18. dialog box with message
+19. browser conso le
+20. sets standards
+21. simplified plan
+22. no product
+23. parsing
+24. page react
+25. nav
+26. body
+27. 600 or less
+28. make contact us
+29. img scr alt =
+30. padding 16px
